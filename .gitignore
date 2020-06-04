@@ -1,0 +1,16 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+obj
+bin
+.vs
+node_modules 
+*.dbmdl 
+*.user 
+/.vs/MT.OnlineRestaurant
+/Utilities/MT.OnlineRestaurant.Utilities/.vs/MT.OnlineRestaurant.Utilities/v15
+/MT.OnlineRestaurant.SearchManagement/.vs/MT.OnlineRestaurant.SearchManagement/v15
+/MT.OnlineRestaurant.Utilities/.vs/MT.OnlineRestaurant.Utilities/v15
+/MT.OnlineRestaurant.Utilities/MT.OnlineRestaurant.Logging
+/MT.OnlineRestaurant.SearchManagement/MT.OnlineRestaurant.SearchManagement/Properties/PublishProfiles
+/MT.OnlineRestaurant.AccountManagement/MT.OnlineRestaurant.AccountManagement/Properties/PublishProfiles

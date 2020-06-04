@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MessengerManagement\MessengerManagement.csproj" />
+    <ProjectReference Include="..\MT.OnlineRestaurant.BusinessEntities\MT.OnlineRestaurant.BusinessEntities.csproj" />
+    <ProjectReference Include="..\MT.OnlineRestaurant.DataLayer\MT.OnlineRestaurant.DataLayer.csproj" />
+  </ItemGroup>
+
+</Project>

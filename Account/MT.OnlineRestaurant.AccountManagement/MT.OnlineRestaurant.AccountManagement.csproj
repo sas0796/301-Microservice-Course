@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.4.0-preview1-19506-01" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.6" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="2.2.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="4.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MT.OnlineRestaurant.BusinessLayer\MT.OnlineRestaurant.BusinessLayer.csproj" />
+    <ProjectReference Include="..\MT.OnlineRestaurant.Helper\MT.OnlineRestaurant.Helper.csproj" />
+    <ProjectReference Include="..\MT.OnlineRestaurant.ValidateUserHandler\MT.OnlineRestaurant.ValidateUserHandler.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="MT.OnlineRestaurant.Logging">
+      <HintPath>..\MT.OnlineRestaurant.Logging\bin\Debug\netcoreapp2.0\MT.OnlineRestaurant.Logging.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
